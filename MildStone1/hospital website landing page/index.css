@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero-container {
+  background: url(./background.png);
+  background-size: cover;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 20px;
+}
+.navList {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.brandname {
+  color: white;
+}
+.navItems {
+  display: flex;
+  gap: 30px;
+}
+.navItems li {
+  list-style: none;
+}
+.navItems li a {
+  color: aliceblue;
+  font-size: small;
+  text-decoration: none;
+}
+.navBtn {
+  background-color: rgb(22, 134, 226);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+}
+
+/* HeroContent */
+
+.heroContent {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heroHeader {
+  color: white;
+  max-width: 60%;
+  padding-top: 20px;
+}
+.heroTitle {
+  font-weight: 600;
+  font-size: 4rem;
+  margin-bottom: 22px;
+}
+.heroHeader p {
+  max-width: 50%;
+  font-size: small;
+  margin-bottom: 30px;
+}
+.heroBtn {
+  display: flex;
+  gap: 10px;
+}
+.heroBtn .heroBtn-1 {
+  background-color: rgb(22, 134, 226);
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+}
+
+.heroBtn .heroBtn-2 {
+  outline: 1px solid white;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+}
+
+.formContainer {
+  float: right;
+  width: 28%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formBody {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.formHeading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contactForm {
+  width: 100%;
+}
+.contactForm label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.contactForm input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 90%;
+  color: gray;
+  padding: 15px;
+  border-radius: 5px;
+  border: transparent;
+  outline: 1px solid gray;
+  background-color: rgb(255, 253, 253);
+}
+.contactForm select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 253, 253);
+  color: gray;
+  padding: 15px;
+  border-radius: 5px;
+}
+.contactForm button {
+  width: 100%;
+}
+
+.featureSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.heading p {
+  color: gray;
+}
+.featureContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.card {
+  border: 1px solid skyblue;
+  border-radius: 10px;
+}
+.cardHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+  background-color: skyblue;
+}
+.iconImg {
+  color: skyblue;
+  border-radius: 50%;
+  background-color: white;
+  padding: 20px;
+  font-size: x-large;
+}
+h4 {
+  color: white;
+}
+
+.featureList {
+  color: gray;
+  padding: 50px;
+  word-spacing: 3px;
+}
+.featureLink {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.review {
+  background-color: rgb(241, 237, 237);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 110px;
+  padding-right: 110px;
+  
+}
+.reviewCard {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+.stars {
+  color: orange;
+  margin-bottom: 15px;
+}
+.reviewCard img {
+  margin-top: 15px;
+}
+.faqList {
+  padding: 35px;
+}
+.reviewCard p {
+  color: gray;
+}
+.faqHead {
+  display: flex;
+}
+.arrow {
+  font-size: 30px;
+  color: skyblue;
+}
+.faqList p{
+  padding-left: 20px;
+}
+
+.priceContent{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.priceCard{
+  border-radius: 10px;
+  border: 1px solid skyblue;
+  padding: 30px;
+  text-align: center;
+}
+.priceCard h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.priceCardDard{
+  background-color: black;
+  color: white;
+}
+.priceCard .topCard{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.price h1 sup{
+  vertical-align: super;
+  font-size: smaller;
+}
+.priceList p{
+  font-size: small;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.tick{
+  background-color: rgb(2, 199, 2);
+  border-radius: 50%;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+}
+.graytick{
+  background-color: rgb(167, 165, 165);
+  border-radius: 50%;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+}
+.tryBtn{
+  background-color: skyblue;
+  width: 100%;
+  padding: 10px;
+  border: transparent;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.getInTouch{
+  background-color: rgb(27, 27, 61);
+  color: white;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.getIn-left{
+  padding: 15px;
+}
+.getIn-left h1{
+  font-weight: 500;
+  font-size: 40px;
+}
+.getIn-left p{
+  font-size: x-small;
+
+}
+.getIn-right{
+  background-color: white;
+  display: flex;
+  justify-self: end;
+  align-items: center;
+
+}
+
+.emailBox input{
+  background-color: white;
+  height: 100%;
+  border: none;
+  padding: 10px;
+
+}
+.emailBox button{
+  background-color: skyblue;
+  height: 100%;
+  border: none;
+  padding: 10px;
+
+}
+.mediaSection{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 35px;
+}
+.mediaHead{
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.getlogos p{
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 0.8rem;
+}
+.socialmedia ion-icon{
+  color: skyblue;
+  margin-right: 8px;
+}
+.mediaLink{
+display: flex;
+flex-direction: column;
+}
+.mediaLink a{
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 10px;
+  font-size: small;
+}
+footer{
+  background-color: rgb(233, 229, 229);
+  padding: 10px;
+}
+footer p{
+  text-align: center;
+  font-size: smaller;
+  color: gray;
+  font-weight: 500;
+}
